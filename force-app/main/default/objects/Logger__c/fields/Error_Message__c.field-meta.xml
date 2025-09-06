@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Error_Message__c</fullName>
+    <description>Detailed error or exception message captured from the system, integration, or user action. This helps in understanding the cause of failure and troubleshooting the issue.</description>
+    <inlineHelpText>Stores the detailed error or exception message for debugging.</inlineHelpText>
+    <label>Error Message</label>
+    <length>30000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

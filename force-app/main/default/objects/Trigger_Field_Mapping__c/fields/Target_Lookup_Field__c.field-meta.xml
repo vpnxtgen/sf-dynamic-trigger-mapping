@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Target_Lookup_Field__c</fullName>
+    <description>Stores the API name of the lookup field on the source object that links to the target object. This allows the mapping framework to identify which related record should be updated.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the lookup field’s API name from the source object that points to the target object (e.g., Contact__c, OpportunityId). This tells the system how the source record is related to the target record.</inlineHelpText>
+    <label>Target Lookup Field</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
