@@ -11,13 +11,13 @@ By leveraging this service:
 
 How It Works
 1) Configuration Layer
-   * Mapping Object (Mapping_Object__c)
+   * Mapping Object (Trigger_Field_Mapping__c)
    * Defines the Source Object Name (e.g., Quote)
    * Defines the Target Object Name (e.g., Opportunity or Contact)
    * Defines the Target Lookup API Name (e.g., OpportunityId, ContactId)
    * Active flag to control whether mapping is enabled
 2) Trigger Field Mapping (Trigger_Field_Mapping__c)
-   * Child records under Mapping Object
+   * Child records under Mapping Object, I'ts a self lookup field
    * Stores Source Field API Name and Target Field API Name
    * Can be extended for multiple mappings across different objects
 
