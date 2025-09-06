@@ -63,6 +63,11 @@ When a Quote record is updated:
 
 <img width="453" height="512" alt="image" src="https://github.com/user-attachments/assets/6fa70aab-0fe4-4c4c-b6f7-91f5786ed837" />
 
+DynamicFieldMappingService flow:
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2b3932f9-bba5-4ca5-8a97-3c48046bc539" />
+
+
 
                                                                                                                                                                                                              Author : Vikranth Puvvadi
 
