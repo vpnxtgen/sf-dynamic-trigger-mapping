@@ -64,32 +64,5 @@ When a Quote record is updated:
 <img width="453" height="512" alt="image" src="https://github.com/user-attachments/assets/6fa70aab-0fe4-4c4c-b6f7-91f5786ed837" />
 
 
-Object Model:
-
- ┌────────────────────┐
- │  Trigger Map Object│
- │────────────────────│
- │ • Trigger Field Map│───┐
- │ • Object           │   │
- └────────────────────┘   │
-                          ▼
-               ┌───────────────────┐
-               │   Mapping Object  │
-               │───────────────────│
-               │ • Self Lookup     │
-               │ • SourceFieldAPI  │
-               │ • TargetFieldAPI  │
-               └───────────────────┘
-                          │
-                          ▼
-          ┌────────────────────────────────┐
-          │         Field Details           │
-          │────────────────────────────────│
-          │ • Source Object Name            │
-          │ • Target Object Name            │
-          │ • Target Lookup API Name        │
-          └────────────────────────────────┘
-
-
-
+                                                                                                                                                                                                             Author : Vikranth Puvvadi
 
