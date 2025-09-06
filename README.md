@@ -61,6 +61,7 @@ When a Quote record is updated:
  * The same logic applies for Contact mappings if defined.
 
 
+<img width="453" height="512" alt="image" src="https://github.com/user-attachments/assets/6fa70aab-0fe4-4c4c-b6f7-91f5786ed837" />
 
 
 Object Model:
